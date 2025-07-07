@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="/less/cesese.css"> <!-- Puedes enlazar tu archivo CSS -->
+</head>
+<body>
+  <!-- Encabezado / Hero -->
+  <header>
+    <nav>
+      <div class="logo">MiProducto</div>
+      <ul>
+        <li><a href="#caracteristicas">Características</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-texto">
+          <h1>Transforma tu vida con MiProducto</h1>
+          <p>Una solución simple para un gran cambio.</p>
+          <a href="#registro" class="btn">Comienza ahora</a>
+        </div>
+        <div class="hero-imagen">
+          <img src="https://picsum.photos/id/12/400/300" alt="Imagen representativa">
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <!-- Características -->
+  <section id="caracteristicas">
+    <h2>¿Por qué elegirnos?</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Fácil de usar</h3>
+        <p>Diseñado para que cualquiera pueda comenzar sin experiencia previa.</p>
+      </div>
+      <div class="feature">
+        <h3>Soporte 24/7</h3>
+        <p>Siempre hay alguien disponible para ayudarte.</p>
+      </div>
+      <div class="feature">
+        <h3>Resultados comprobados</h3>
+        <p>Clientes satisfechos en más de 30 países.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section id="testimonios">
+    <h2>Lo que dicen nuestros usuarios</h2>
+    <div class="testimonial">
+      <p>"Gracias a MiProducto he logrado mis metas en tiempo récord. 100% recomendado."</p>
+      <p><strong>- Ana G., Honduras</strong></p>
+    </div>
+    <div class="testimonial">
+      <p>"Nunca pensé que algo tan simple pudiera darme tanto valor. Excelente servicio."</p>
+      <p><strong>- Carlos M., México</strong></p>
+    </div>
+  </section>
+
+  <!-- Llamado a la acción -->
+  <section id="registro">
+    <h2>¿Estás listo para comenzar?</h2>
+    <p>Únete a cientos de personas que ya están cambiando su vida.</p>
+    <form action="/registro" method="POST">
+      <input type="text" name="nombre" placeholder="Tu nombre" required>
+      <input type="email" name="email" placeholder="Tu correo electrónico" required>
+      <button type="submit">Registrarse</button>
+    </form>
+  </section>
+
+  <!-- Pie de página -->
+  <footer id="contacto">
+    <p>© 2025 MiProducto. Todos los derechos reservados.</p>
+    <p>Contacto: info@miproducto.com</p>
+  </footer>
+</body>
+</html>
